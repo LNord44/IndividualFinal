@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				color: black;
+				background-color: #ffcccc;
+			}
+			.center {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.column {
+				float: left;
+				width: 47.33%;
+				padding: 5px;
+			}
+			.links {
+				float: left;
+				width: 5.33%;
+				padding: 5px;
+				background-color: #ff6666;
+			}
+		</style>
+		<script type="text/javascript">
+			writeRandomRecommendation = function () {
+				var quotes = new Array();
+				quotes[0] = "The javascript gods want you to watch Soul.";
+				quotes[1] = "The javascript gods want you to play the Last of Us Part II.";
+				quotes[2] = "The javascript gods want you to listen to Yandhi.";
+				quotes[3] = "The javascript gods want you to watch The Mandolorian.";
+				quotes[4] = "The javascript gods want you to read The Alchemist.";
+				var rand = Math.floor(Math.random()*quotes.length);
+				document.write(quotes[rand]);
+			}
+		</script>
+		<div class="row">
+			<div class="links">
+				<p><a href="index.html">Home</a></p>
+			</div>
+			<div class="links">
+				<p><a href="CONTACTS.html">Contacts</a></p>
+			</div>
+			<div class="links">
+				<p><a href="BIOGRAPHY.html">Biography</a></p>
+			</div>
+			<div class="links">
+				<p><a href="VIDEOS.html">Videos</a></p>
+			</div>
+		</div>
+	</head>
+	<body>
+		<br></br>
+		<br></br>
+		<h1 align="center">REVIEWS</h1>
+		<h3 align="center">Below are some of the shows/ movies, music, games, and books Luke has enjoyed enough to write a review about.</h3>
+		<p> <img src="https://i.ytimg.com/vi/EVB21AxR1Hw/movieposter.jpg" width="80" height="100"> - Soul - Pixar's latest animated film. The best origional Pixar movie since Coco. You can watch it with a subsciption to Disney+. 9/10. </p>
+		<p> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/TLOU_P2_Box_Art_2.png/220px-TLOU_P2_Box_Art_2.png" width="90" height="100"> - The Last of Us Part II - This latest installment, created Naughty Dog Studios, saw massive review bombing before initial release.  If you played the first game, you'll like this game. Ignore the haters. 10/10.</p>
+		<p> <img src="https://s3.amazonaws.com/filepicker-images-rapgenius/q4mimanyu0e" width="95" height="100"> - Yandhi - Kanye West's unreleased album that was leaked in 2019, it is truly a shame this album never came to fruition. 7.5/10.</p>
+		<p> <img src="https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg" width="80" height="100"> - The Mandolorian - The best Star Wars since the origional trilogy.  Baby Yoda is quite cute. 9.5/10.</p>
+		<p> <img src="https://images-na.ssl-images-amazon.com/images/I/51McwnDOdWL.jpg" width="80" height="100"> - The Alchemist - This book is a pretty cool metaphor for desires in life. It's a pretty easy read too. 6.5/10.</p>
+		<br></br>
+		<br></br>
+		<br></br>
+		<script type="text/javascript">writeRandomRecommendation();</script>
+	</body>
+</html>	
